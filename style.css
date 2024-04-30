@@ -77,8 +77,9 @@ html, body {
 a:focus {
 	outline:0px solid;
 }
-img {max-width:100%;
-	height:auto;
+img {
+    max-width:100%;
+	/* height:auto; */
 }
 .fix {
 	overflow:hidden;
@@ -371,7 +372,7 @@ div#preloader {
     display: inline-block;
 }
 .topbar-area {
-    background:#1b30ba;
+    background:#000000;
 }
 .topbar-left ul li a {
     color: #ddd;
@@ -418,40 +419,17 @@ div#preloader {
 /*  2.1 Header Bottom Area 
 /*----------------------------------------*/
 .header-area{
-	background: #fff;
+	background: #fefefe;
 	box-shadow: 2px 2px 5px #ccc, 0px 0px 0px #ccc;
 }
-.logo-bg{
-	background: #ff0000;
-	z-index: 10;
-}
-.logo-bg:after {
-    content: "";
-    position: absolute;
-    right: -100px;
-    top: 0;
-    border-top: 100px solid transparent;
-    border-bottom: 0 solid transparent;
-    border-left: 100px solid #ff0000;
-	z-index: 10;
-}
-.logo-bg:before {
-    content: "";
-    position: absolute;
-    left: -90px;
-    top: 0;
-    background: #ff0000;
-    z-index: 10;
-    width: 90px;
-    height: 100%;
-}
+
 .logo {
     display: block;
 }
 .logo a {
     display: inline-block;
     height: auto;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 .main-menu ul.navbar-nav li {
     float: left;
@@ -650,7 +628,7 @@ div#preloader {
 .header-area.stick .navbar-brand>img {
     display: block;
     width: 160px;
-    height: auto;
+    /* height: auto; */
 }
 .header-area.stick .logo-bg:after {
     border-top: 76px solid transparent;
@@ -725,7 +703,7 @@ div#preloader {
     position: absolute;
     right: 0;
     text-align: left;
-    top: 50%;
+    top: 30%;
     z-index: 3;
     left: 0;
     margin: 0 auto;
@@ -2385,10 +2363,10 @@ div#preloader {
     position: relative;
 }
 .page-area {
-    background: url(img/background/b.jpg);
+    background: url(img/background/packer1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
 }
 .breadcumb-overlay {
   position: absolute;

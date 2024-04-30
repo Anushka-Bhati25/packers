@@ -23,7 +23,7 @@
 .logo a {
     display: inline-block;
     height: auto;
-    padding: 21px 0;
+    /* padding: 21px 0; */
 }
 .header-area.stick .main-menu ul.navbar-nav li a {
     padding: 28px 0px;
