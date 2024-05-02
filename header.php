@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+    <link rel="shortcut icon" href="img/logo/VRL favicon.png" type="image/x-icon">
 
     <!-- all css here -->
 
@@ -39,9 +39,7 @@
 
 <body>
 
-    <!--[if lt IE 8]>
-			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
+    
 
     <div id="preloader"></div>
     <header class="header-one">
@@ -52,10 +50,8 @@
                     <div class=" col-md-10 col-sm-9">
                         <div class="topbar-left">
                             <ul>
-                                <li><a href="#"><i class="fa fa-map-marker"></i> House-4,2/3</a></li>
-                                <li class="hidden-sm"><a href="#"><i class="fa fa-clock-o"></i> Mon - Fri: 10:00 - 18:00</a></li>
                                 <li><a href="#"><i class="fa fa-envelope"></i> info@abc.com</a></li>
-                                <li><a href="#"><i class="fa fa-phone"></i> +2112-6546654</a></li>
+                                <li><a href="tel:+919067580888"><i class="fa fa-phone"></i> 9067580888</a></li>
                             </ul>
                         </div>
                     </div>
