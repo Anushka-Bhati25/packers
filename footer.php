@@ -10,7 +10,7 @@
                                     	<a href="#"><img src="img/logo/logo.png" alt=""></a>
                                     </div>
                                     <p>
-                                        Are you looking for professional advice for your new business.Are you looking for professional advice for your new business.Are you looking for professional advice for your new business.
+                                    Are you seeking professional guidance for your freight? Are you in need of expert advice to propel your forward?
                                     </p>
                                     <div class="footer-icons">
                                         <ul>

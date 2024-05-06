@@ -1,4 +1,13 @@
-<?php include('header.php'); ?>
+<?php 
+$pageTitle = "VRL Freight Cargo Services in Chennai @9067580888";
+$pageDescription = "Looking for the Best VRL Freight Cargo service in Chennai! Fast & Reliable Shipping solutions Worldwide. Contact us at 9560420670";
+$pageKeywords = "VRL Freight Cargo services, international shipping with VRL Freight, VRL Freight express services, VRL Freight worldwide shipping, VRL Freight parcel delivery, VRL Freight logistics solutions, VRL Freight global courier, VRL Freight delivery services, VRL Freight freight forwarding, VRL Freight international delivery, VRL Freight cargo services, VRL Freight shipping rates, VRL Freight courier tracking, VRL Freight door-to-door delivery, VRL Freight courier company, VRL Freight package delivery, VRL Freight import/export services, VRL Freight express delivery, VRL Freight international logistics, VRL Freight shipping solutions, VRL Freight global shipping, VRL Freight worldwide express, VRL Freight courier tracking online, VRL Freight international freight, VRL Freight courier rates, VRL Freight express shipping, VRL Freight shipment tracking, VRL Freight parcel tracking, VRL Freight courier delivery, VRL Freight international parcel service, VRL Freight international courier rates, VRL Freight international shipping rates, VRL Freight international courier tracking,
+ VRL Freight international shipping services, VRL Freight express courier service, VRL Freight international package delivery, VRL Freight worldwide courier services, VRL Freight international cargo services, VRL Freight express logistics, VRL Freight shipping company, VRL Freight courier rates calculator, VRL Freight global delivery, VRL Freight courier near me, VRL Freight express rates, VRL Freight global tracking, VRL Freight international express, VRL Freight courier charges, VRL Freight express delivery time, VRL Freight worldwide delivery, VRL Freight express international, VRL Freight international shipping cost, VRL Freight international express shipping, VRL Freight courier service near me, VRL Freight express delivery rates, VRL Freight express worldwide, VRL Freight courier online tracking, VRL Freight courier contact number, VRL Freight international tracking, VRL Freight courier services rates, VRL Freight global express, VRL Freight courier quote, VRL Freight international courier charges, VRL Freight shipping calculator, VRL Freight express shipping rates, 
+ VRL Freight international express rates, VRL Freight courier delivery time, VRL Freight international shipping charges, VRL Freight international express delivery, VRL Freight courier parcel, VRL Freight worldwide express shipping, VRL Freight international courier services rates, VRL Freight international express delivery time, VRL Freight express international rates, VRL Freight express courier rates, VRL Freight international parcel delivery, VRL Freight global express tracking
+";
+
+
+include('header.php'); ?>
 
 
 <!-- Start Slider Area -->
@@ -17,15 +26,15 @@
                                 <div class="col-md-12 text-center">
                                     <!-- layer 1 -->
                                     <div class="layer-1-2">
-                                        <h1 class="title2">The Most Popular Packers & Movers</h1>
+                                        <h1 class="title2">The Most Popular <br><span style="color:yellow;">Packers & Movers</span></h1>
                                     </div>
                                     <div class="layer-1-1 ">
-                                        <p>Packers and movers are professional service providers who specialize in helping individuals and businesses relocate their belongings from one place to another. From packing household items securely to transporting them safely to the new destination, packers and movers offer comprehensive solutions to ensure a smooth and hassle-free moving experience.</p>
+                                        <p>Move with ease, relocate with confidence - Trust our expert packers and movers for a seamless transition!</p>
                                     </div>
                                     <!-- layer 3 -->
                                     <div class="layer-1-3">
-                                        <a href="#" class="ready-btn left-btn">Our Services</a>
-                                        <a href="#" class="ready-btn right-btn">Contact us</a>
+                                        <a href="home_relocation.php" class="ready-btn left-btn">Our Services</a>
+                                        <a href="contact.php" class="ready-btn right-btn">Contact us</a>
                                     </div>
                                 </div>
                             </div>
@@ -70,12 +79,12 @@
 
 
 <!-- boxes -->
-<div class="container owl-stage-desktop" style="padding-top:50px;">
+<div class="container owl-stage-desktop boxes" style="padding-top:50px;">
     <div class="row">
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 ">
             <div style="background-color: #ff2c2c;padding: 17px;border-radius: 10px;">
                 <div class="row">
-                    <div class="col col-md-4 col-sm-4 col-lg-4" style="background-color: aliceblue;text-align: center;left: -2px;top: -17px;margin-bottom: -34px;padding-top: 10px;border-radius: 8px 92px 92px 14px;">
+                    <div class="col col-md-4 col-sm-4 col-lg-4 " style="background-color: aliceblue;text-align: center;left: -2px;top: -17px;margin-bottom: -34px;padding-top: 10px;border-radius: 8px 92px 92px 14px;">
                         <svg width="64px" height="64px" viewBox="0 0 1024 1024" fill="#000000">
                             <g id="SVGRepo_iconCarrier">
                                 <path d="M301.738667 425.403733a320.4096 319.146667 0 1 0 640.8192 0 320.4096 319.146667 0 1 0-640.8192 0Z" fill="#EADAC5"></path>
@@ -186,6 +195,13 @@
         </div>
     </div>
 </div>
+<style>
+    @media only screen and (max-width: 800px){
+        .boxes{
+            display: none;
+        }
+    }
+</style>
 
 <!-- boxes end -->
 
@@ -508,7 +524,7 @@
                 <div class="banner-content text-left">
                     <h4>Are you looking for professional Services for relocation?</h4>
                     <div class="banner-contact-btn">
-                        <a class="banner-btn" href="#">Contact us</a>
+                        <a class="banner-btn" href="contact.php">Contact us</a>
                     </div>
                 </div>
             </div>
@@ -529,24 +545,24 @@
     <div class="row">
         <div class="col-lg-3 col-md-6">
             <ul class="requirements-list list-group list-group-flush" style="font-size: 14px;font-weight: 500;">
-                <li><a href="packers-movers-ahmedabad.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Adyar</a></li>
-                <li><a href="packers-movers-angul.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Alwarthirunagar</a></li>
-                <li><a href="packers-movers-bhubaneswar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Ayanavaram</a></li>
-                <li><a href="packers-movers-bangalore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chetput</a></li>
-                <li><a href="packers-movers-balasore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Choolaimedu</a></li>
-                <li><a href="packers-movers-chandigarh.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers George Town</a></li>
-                <li><a href="packers-movers-chennai.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers ICF</a></li>
-                <li><a href="packers-movers-cuttack.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kattivakkam</a></li>
-                <li><a href="packers-movers-delhi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Keelkattalai</a></li>
+                <li><a href="adyar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Adyar</a></li>
+                <li><a href="ayanavaram.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Alwarthirunagar</a></li>
+                <li><a href="ayanavaram.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Ayanavaram</a></li>
+                <li><a href="chetput.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chetput</a></li>
+                <li><a href="choolaimedu.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Choolaimedu</a></li>
+                <li><a href="georgetown.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers George Town</a></li>
+                <li><a href="icf.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers ICF</a></li>
+                <li><a href="kattivakkam.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kattivakkam</a></li>
+                <li><a href="keelkattalai.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Keelkattalai</a></li>
             </ul>
         </div>
         <div class="col-lg-3 col-md-6">
             <ul class="requirements-list" style="font-size: 14px;font-weight: 500;">
-                <li><a href="packers-movers-dehradun.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kolathur</a></li>
-                <li><a href="packers-movers-gandhinagar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Manali New Town</a></li>
-                <li><a href="packers-movers-goa.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Alandur</a></li>
-                <li><a href="packers-movers-gurgaon.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Annanur</a></li>
-                <li><a href="packers-movers-guwahati.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Beemannapettai</a></li>
+                <li><a href="kolathur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kolathur</a></li>
+                <li><a href="manalinewtown.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Manali New Town</a></li>
+                <li><a href="alandur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Alandur</a></li>
+                <li><a href="annanur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Annanur</a></li>
+                <li><a href="beemannapettai.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Beemannapettai</a></li>
                 <li><a href="packers-movers-hyderabad.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chintadripet</a></li>
                 <li><a href="packers-movers-indore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Egmore</a></li>
                 <li><a href="packers-movers-jaipur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Govt. Estate</a></li>

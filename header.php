@@ -4,8 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Packers & Movers</title>
-    <meta name="description" content="">
+    <title><?php echo $pageTitle; ?></title>
+    <meta name="description" content="<?php echo $pageDescription; ?>">
+    <meta name="keywords" content="<?php echo $pageKeywords; ?>">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- favicon -->
@@ -72,7 +74,7 @@
                     <div class="col-md-3 col-sm-3 logo-bg">
                         <div class="logo">
                             <!-- Brand -->
-                            <a class="navbar-brand page-scroll sticky-logo" href="index-2.html">
+                            <a class="navbar-brand page-scroll sticky-logo" href="index.php">
                                 <img src="img/logo/logo3.jpeg" alt="logo" height="100px" width="150px">
                             </a>
                         </div>
@@ -129,24 +131,25 @@
                     <div class="col-md-12">
                         <div class="mobile-menu">
                             <div class="logo">
-                                <a href="index.html"><img src="img/logo/logo.png" alt="" /></a>
+                                <a href="index.php"><img src="img/logo/mobile.jpeg" alt="" style="height: 47px;"></a>
                             </div>
                             <nav id="dropdown">
                                 <ul>
-                                    <li><a class="pagess" href="index.html">Home</a>
+                                    <li><a class="pagess" href="index.php">Home</a>
                                     </li>
-                                    <li><a class="pagess" href="#">About us</a>
+                                    <li><a class="pagess" href="about.php">About us</a>
                                     </li>
                                     <li><a class="pagess" href="#">Services</a>
                                         <ul class="sub-menu">
-                                            <li><a href="#">Service 1</a></li>
-                                            <li><a href="#">Service 1</a></li>
-                                            <li><a href="#">Service 1</a></li>
-                                            <li><a href="#">Service 1</a></li>
-                                            <li><a href="#">Service 1</a></li>
+                                            <li><a href="home_relocation.php">Home Relocation</a></li>
+                                            <li><a href="Door_to_Door.php">Door to Door moving</a></li>
+                                                <li><a href="office_shifting.php">Office Shifting</a></li>
+                                                <li><a href="transportation.php">Transportation Services</a></li>
+                                                <li><a href="parcel.php">Parcel Services</a></li>
+                                                <li><a href="Car_Loading.php">Car Loading</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">contact</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -161,7 +164,48 @@
         marquee {
             color: #000;
         }
+
+        .icons-container{
+            display: none;
+        }
+        @media (max-width: 768px) { 
+    .icons-container {
+        display: flex;
+        justify-content: center; 
+        padding: 10px;
+  
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 5px 0px;
+    z-index: 9;
+  
+    }
+    
+    .icons-container a {
+        text-decoration: none;
+        margin: 0 10px; 
+    }
+    
+    .icons-container img {
+        width: 40px; 
+        height: 40px; 
+    }}
     </style>
+
+
+<div class="icons-container" style="gap:30px;  background-color: #ed1b34;">
+        <a href="tel:+919067580888" style="color: #ffffff;"><b>Call Now</b></a>
+      
+        <span class="separator">|</span>
+                
+        <a href="https://wa.me/+919067580888" target="_blank" style="color: #ffffff;"><b>Enquire Now</b></a>
+      
+        <!-- <a href="https://thefundecor.com/about.html"><img src="https://thedryclean.in/wp-content/uploads/2023/08/form.png" alt="Form Icon"></a> -->
+      </div>
+
 
     <body class="instructor-home">
         <marquee onmouseover="this.stop()" onmouseout="this.start()">Services: Household Shifting
@@ -178,4 +222,7 @@
             Kolkata
             Pune
             Hyderabad</marquee>
+
+
+    
         <!-- header end -->
