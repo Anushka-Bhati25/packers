@@ -26,7 +26,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                             VRL Freight international express rates, VRL Freight courier delivery time, VRL Freight international shipping charges, VRL Freight international express delivery, VRL Freight courier parcel, VRL Freight worldwide express shipping, VRL Freight international courier services rates, VRL Freight international express delivery time, VRL Freight express international rates, VRL Freight express courier rates, VRL Freight international parcel delivery, VRL Freight global express tracking
                             "; 
                             include \'header.php\';?>' . PHP_EOL
-              . '<?php include \'hero-section.php\';?>' . PHP_EOL
+              
               . '<main id="main">' . PHP_EOL
               . '<section id="about" class="about">' . PHP_EOL
               . '<div class="container" data-aos="fade-up">' . PHP_EOL
@@ -46,38 +46,28 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
               . '</div>' . PHP_EOL
               . '</div>' . PHP_EOL
               . '<div class="col-lg-6 order-lg-2 order-1 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">' . PHP_EOL
-              . '<form class="appointment-form" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; width: 100%; ">' . PHP_EOL
+              . '<form id="contactForm" method="POST" action="send_email.php" class="contact-form" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; width: 100%; ">' . PHP_EOL
               . '<h3>Contact Us</h3>' . PHP_EOL
               . '<h2>Make an Appointment</h2>' . PHP_EOL
               . '<div class="mb-3">' . PHP_EOL
-              . '<input type="text" class="form-control" placeholder="Your Name" required>' . PHP_EOL
+              . '<input type="text" name="name" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">' . PHP_EOL
               . '</div>' . PHP_EOL
               . '<div class="mb-3">' . PHP_EOL
-              . '<input type="email" class="form-control" placeholder="Your Email" required>' . PHP_EOL
+              . '<input type="email" name="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">' . PHP_EOL
               . '</div>' . PHP_EOL
               . '<div class="mb-3">' . PHP_EOL
-              . '<input type="tel" class="form-control" placeholder="Your Phone Number" required>' . PHP_EOL
+              . '<input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone" required data-error="Please enter your message subject">' . PHP_EOL
               . '</div>' . PHP_EOL
               . '<div class="mb-3">' . PHP_EOL
-              . '<textarea class="form-control" rows="3" placeholder="Your Message" required></textarea>' . PHP_EOL
+              . '<textarea name="message" id="message" rows="7" placeholder="Message" class="form-control" required data-error="Write your message"></textarea>' . PHP_EOL
               . '</div>' . PHP_EOL
-              . '<button type="submit" class="btn btn-primary" style="font-weight: bold;">Submit</button>' . PHP_EOL
+              . '<button type="submit" id="submit" class="contact-btn">Submit</button>' . PHP_EOL
               . '</form>' . PHP_EOL
               . '</div>' . PHP_EOL
               . '</div>' . PHP_EOL
               . '</div>' . PHP_EOL
               . '</section>' . PHP_EOL
-              . '<?php include \'values-section.php\';?>' . PHP_EOL
-              . '<?php include \'counts-section.php\';?>' . PHP_EOL
-              . '<?php include \'features-section.php\';?>' . PHP_EOL
-              . '<?php include \'services-section.php\';?>' . PHP_EOL
-              . '<?php include \'faq-section.php\';?>' . PHP_EOL
-              . '<?php include \'testimonials-section.php\';?>' . PHP_EOL
-              . '<?php include \'team-section.php\';?>' . PHP_EOL
-              . '<?php include \'clients-section.php\';?>' . PHP_EOL
-              . '<?php include \'recent-blog-posts-section.php\';?>' . PHP_EOL
-              . '<?php include \'contact-section.php\';?>' . PHP_EOL
-              . '<section id="new-section">' . PHP_EOL
+               . '<section id="new-section">' . PHP_EOL
               . '<div class="container">' . PHP_EOL
               . '<div class="row">' . PHP_EOL
               . '<div class="col-lg-6">' . PHP_EOL

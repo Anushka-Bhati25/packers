@@ -6,7 +6,6 @@
                             VRL Freight international express rates, VRL Freight courier delivery time, VRL Freight international shipping charges, VRL Freight international express delivery, VRL Freight courier parcel, VRL Freight worldwide express shipping, VRL Freight international courier services rates, VRL Freight international express delivery time, VRL Freight express international rates, VRL Freight express courier rates, VRL Freight international parcel delivery, VRL Freight global express tracking
                             "; 
                             include 'header.php';?>
-<?php include 'hero-section.php';?>
 <main id="main">
 <section id="about" class="about">
 <div class="container" data-aos="fade-up">
@@ -47,16 +46,6 @@
 </div>
 </div>
 </section>
-<?php include 'values-section.php';?>
-<?php include 'counts-section.php';?>
-<?php include 'features-section.php';?>
-<?php include 'services-section.php';?>
-<?php include 'faq-section.php';?>
-<?php include 'testimonials-section.php';?>
-<?php include 'team-section.php';?>
-<?php include 'clients-section.php';?>
-<?php include 'recent-blog-posts-section.php';?>
-<?php include 'contact-section.php';?>
 <section id="new-section">
 <div class="container">
 <div class="row">

@@ -195,17 +195,17 @@ include('header.php'); ?>
         </div>
     </div>
 </div>
+ 
+
+<!-- boxes end -->
+
 <style>
-    @media only screen and (max-width: 800px){
-        .boxes{
+    @media screen and (max-width: 600px) {
+        .boxes {
             display: none;
         }
     }
 </style>
-
-<!-- boxes end -->
-
-
 <!-- Welcome service area start -->
 <div class="welcome-area area-padding">
     <div class="container">
@@ -225,7 +225,7 @@ include('header.php'); ?>
                             <a href="#"><i class=""><img src="img/trolley.png" alt=""></i></a>
                         </div>
                         <div class="well-content">
-                            <h4><a href="#">Efficient Packing <br> Techniques</a></h4>
+                            <h4><a href="#">24/7<br> Support</a></h4>
                             <p>Utilizing meticulous packing methods to safeguard belongings throughout the relocation journey.</p>
                         </div>
                     </div>
@@ -237,7 +237,7 @@ include('header.php'); ?>
                             <a href="#"><i class=""><img src="img/delivery-box.png" alt=""></i></a>
                         </div>
                         <div class="well-content">
-                            <h4><a href="#">Tailored <br> Solutions</a></h4>
+                            <h4><a href="#">A1 Rating <br> By Customers</a></h4>
                             <p>Providing comprehensive solutions that cater to the specific requirements and preferences of each client.</p>
                         </div>
                     </div>
@@ -261,7 +261,7 @@ include('header.php'); ?>
                             <a href="#"><i class=""><img src="img/trolley2.png" alt=""></i></a>
                         </div>
                         <div class="well-content">
-                            <h4><a href="#">Streamlined <br>Handling</a></h4>
+                            <h4><a href="#">Fastest <br>Delivery</a></h4>
                             <p>Expertly managing the handling and transportation logistics to optimize efficiency and timeliness.</p>
                         </div>
                     </div>
@@ -563,34 +563,34 @@ include('header.php'); ?>
                 <li><a href="alandur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Alandur</a></li>
                 <li><a href="annanur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Annanur</a></li>
                 <li><a href="beemannapettai.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Beemannapettai</a></li>
-                <li><a href="packers-movers-hyderabad.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chintadripet</a></li>
-                <li><a href="packers-movers-indore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Egmore</a></li>
-                <li><a href="packers-movers-jaipur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Govt. Estate</a></li>
-                <li><a href="packers-movers-jamnagar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Iyyapanthangal</a></li>
+                <li><a href="hyderabad.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chintadripet</a></li>
+                <li><a href="indore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Egmore</a></li>
+                <li><a href="jaipur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Govt. Estate</a></li>
+                <li><a href="jamnagar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Iyyapanthangal</a></li>
             </ul>
         </div>
         <div class="col-lg-3 col-md-6">
             <ul class="requirements-list" style="font-size: 14px;font-weight: 500;">
-                <li><a href="packers-movers-jamshedpur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kattupakkam</a></li>
-                <li><a href="packers-movers-kharagpur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kilpauk</a></li>
-                <li><a href="packers-movers-kolkata.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Korattur</a></li>
-                <li><a href="packers-movers-lucknow.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Manapakkam</a></li>
-                <li><a href="packers-movers-mumbai.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Alapakkam</a></li>
-                <li><a href="packers-movers-noida.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Arumbakkam</a></li>
-                <li><a href="packers-movers-patna.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Basin Bridge</a></li>
-                <li><a href="packers-movers-pondicherry.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chitlapakkam</a></li>
+                <li><a href="jamshedpur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kattupakkam</a></li>
+                <li><a href="kharagpur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kilpauk</a></li>
+                <li><a href="kolkata.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Korattur</a></li>
+                <li><a href="lucknow.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Manapakkam</a></li>
+                <li><a href="mumbai.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Alapakkam</a></li>
+                <li><a href="noida.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Arumbakkam</a></li>
+                <li><a href="patna.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Basin Bridge</a></li>
+                <li><a href="pondicherry.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chitlapakkam</a></li>
             </ul>
         </div>
         <div class="col-lg-3 col-md-6">
             <ul class="sitemap-widget" style="font-size: 14px;font-weight: 500;">
-                <li><a href="packers-movers-pune.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Foreshore Estate</a></li>
-                <li><a href="packers-movers-raipur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers IIT Madras</a></li>
-                <li><a href="packers-movers-ranchi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Jafferkhanpet</a></li>
-                <li><a href="packers-movers-rourkela.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kazhipattur</a></li>
-                <li><a href="packers-movers-thiruvananthapuram.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kodampattur</a></li>
-                <li><a href="packers-movers-vapi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Korukkupet</a></li>
-                <li><a href="packers-movers-vijayawada.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Madambakkam</a></li>
-                <li><a href="packers-movers-vizag.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Alwarpet</a></li>
+                <li><a href="pune.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Foreshore Estate</a></li>
+                <li><a href="raipur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers IIT Madras</a></li>
+                <li><a href="ranchi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Jafferkhanpet</a></li>
+                <li><a href="rourkela.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kazhipattur</a></li>
+                <li><a href="thiruvananthapuram.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kodampattur</a></li>
+                <li><a href="vapi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Korukkupet</a></li>
+                <li><a href="vijayawada.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Madambakkam</a></li>
+                <li><a href="alwarpet.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Alwarpet</a></li>
             </ul>
         </div>
     </div>
@@ -608,52 +608,52 @@ include('header.php'); ?>
     <div class="row">
         <div class="col-lg-3 col-md-6">
             <ul class="requirements-list" style="font-size: 14px;font-weight: 500;">
-                <li><a href="packers-movers-dehradun.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Dehradun</a></li>
-                <li><a href="packers-movers-gandhinagar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Gandhinagar</a></li>
-                <li><a href="packers-movers-goa.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Goa</a></li>
-                <li><a href="packers-movers-gurgaon.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Gurgaon</a></li>
-                <li><a href="packers-movers-guwahati.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Guwahati</a></li>
-                <li><a href="packers-movers-hyderabad.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Hyderabad</a></li>
-                <li><a href="packers-movers-indore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Indore</a></li>
-                <li><a href="packers-movers-jaipur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Jaipur</a></li>
-                <li><a href="packers-movers-jamnagar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Jamnagar</a></li>
+                <li><a href="dehradun.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Dehradun</a></li>
+                <li><a href="gandhinagar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Gandhinagar</a></li>
+                <li><a href="goa.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Goa</a></li>
+                <li><a href="gurgaon.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Gurgaon</a></li>
+                <li><a href="guwahati.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Guwahati</a></li>
+                <li><a href="hyderabad.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Hyderabad</a></li>
+                <li><a href="indore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Indore</a></li>
+                <li><a href="jaipur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Jaipur</a></li>
+                <li><a href="jamnagar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Jamnagar</a></li>
             </ul>
         </div>
         <div class="col-lg-3 col-md-6">
             <ul class="requirements-list list-group list-group-flush" style="font-size: 14px;font-weight: 500;">
-                <li><a href="packers-movers-ahmedabad.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Ahmedabad</a></li>
-                <li><a href="packers-movers-angul.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Angul</a></li>
-                <li><a href="packers-movers-bhubaneswar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Bhubaneswar</a></li>
-                <li><a href="packers-movers-bangalore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Bangalore</a></li>
-                <li><a href="packers-movers-balasore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Balasore</a></li>
-                <li><a href="packers-movers-chandigarh.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chandigarh</a></li>
-                <li><a href="packers-movers-chennai.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chennai</a></li>
-                <li><a href="packers-movers-cuttack.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Cuttack</a></li>
-                <li><a href="packers-movers-delhi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Delhi</a></li>
+                <li><a href="ahmedabad.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Ahmedabad</a></li>
+                <li><a href="angul.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Angul</a></li>
+                <li><a href="bhubaneswar.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Bhubaneswar</a></li>
+                <li><a href="bangalore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Bangalore</a></li>
+                <li><a href="balasore.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Balasore</a></li>
+                <li><a href="chandigarh.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chandigarh</a></li>
+                <li><a href="chennai.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Chennai</a></li>
+                <li><a href="cuttack.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Cuttack</a></li>
+                <li><a href="delhi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Delhi</a></li>
             </ul>
         </div>
         <div class="col-lg-3 col-md-6">
             <ul class="sitemap-widget" style="font-size: 14px;font-weight: 500;">
-                <li><a href="packers-movers-pune.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Pune</a></li>
-                <li><a href="packers-movers-raipur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Raipur</a></li>
-                <li><a href="packers-movers-ranchi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Ranchi</a></li>
-                <li><a href="packers-movers-rourkela.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Rourkela</a></li>
-                <li><a href="packers-movers-thiruvananthapuram.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Thiruvananthapuram</a></li>
-                <li><a href="packers-movers-vapi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Vapi</a></li>
-                <li><a href="packers-movers-vijayawada.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Vijaywada</a></li>
-                <li><a href="packers-movers-vizag.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Vizag</a></li>
+                <li><a href="pune.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Pune</a></li>
+                <li><a href="raipur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Raipur</a></li>
+                <li><a href="ranchi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Ranchi</a></li>
+                <li><a href="rourkela.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Rourkela</a></li>
+                <li><a href="thiruvananthapuram.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Thiruvananthapuram</a></li>
+                <li><a href="vapi.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Vapi</a></li>
+                <li><a href="vijayawada.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Vijaywada</a></li>
+                <li><a href="vizag.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Vizag</a></li>
             </ul>
         </div>
         <div class="col-lg-3 col-md-6">
             <ul class="requirements-list" style="font-size: 14px;font-weight: 500;">
-                <li><a href="packers-movers-jamshedpur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Jamshedpur</a></li>
-                <li><a href="packers-movers-kharagpur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kharagpur</a></li>
-                <li><a href="packers-movers-kolkata.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kolkata</a></li>
-                <li><a href="packers-movers-lucknow.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Lucknow</a></li>
-                <li><a href="packers-movers-mumbai.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Mumbai</a></li>
-                <li><a href="packers-movers-noida.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Noida</a></li>
-                <li><a href="packers-movers-patna.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Patna</a></li>
-                <li><a href="packers-movers-pondicherry.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Pondicherry</a></li>
+                <li><a href="jamshedpur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Jamshedpur</a></li>
+                <li><a href="kharagpur.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kharagpur</a></li>
+                <li><a href="kolkata.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Kolkata</a></li>
+                <li><a href="lucknow.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Lucknow</a></li>
+                <li><a href="mumbai.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Mumbai</a></li>
+                <li><a href="noida.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Noida</a></li>
+                <li><a href="patna.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Patna</a></li>
+                <li><a href="pondicherry.php"><i class="fa fa-caret-right" style="color:red;" aria-hidden="true"></i> Packers and Movers Pondicherry</a></li>
             </ul>
         </div>
 

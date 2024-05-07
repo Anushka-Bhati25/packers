@@ -6,7 +6,6 @@
                             VRL Freight international express rates, VRL Freight courier delivery time, VRL Freight international shipping charges, VRL Freight international express delivery, VRL Freight courier parcel, VRL Freight worldwide express shipping, VRL Freight international courier services rates, VRL Freight international express delivery time, VRL Freight express international rates, VRL Freight express courier rates, VRL Freight international parcel delivery, VRL Freight global express tracking
                             "; 
                             include 'header.php';?>
-<?php include 'hero-section.php';?>
 <main id="main">
 <section id="about" class="about">
 <div class="container" data-aos="fade-up">
@@ -26,37 +25,27 @@
 </div>
 </div>
 <div class="col-lg-6 order-lg-2 order-1 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-<form class="appointment-form" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; width: 100%; ">
+<form id="contactForm" method="POST" action="send_email.php" class="contact-form" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; width: 100%; ">
 <h3>Contact Us</h3>
 <h2>Make an Appointment</h2>
 <div class="mb-3">
-<input type="text" class="form-control" placeholder="Your Name" required>
+<input type="text" name="name" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
 </div>
 <div class="mb-3">
-<input type="email" class="form-control" placeholder="Your Email" required>
+<input type="email" name="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
 </div>
 <div class="mb-3">
-<input type="tel" class="form-control" placeholder="Your Phone Number" required>
+<input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone" required data-error="Please enter your message subject">
 </div>
 <div class="mb-3">
-<textarea class="form-control" rows="3" placeholder="Your Message" required></textarea>
+<textarea name="message" id="message" rows="7" placeholder="Message" class="form-control" required data-error="Write your message"></textarea>
 </div>
-<button type="submit" class="btn btn-primary" style="font-weight: bold;">Submit</button>
+<button type="submit" id="submit" class="contact-btn">Submit</button>
 </form>
 </div>
 </div>
 </div>
 </section>
-<?php include 'values-section.php';?>
-<?php include 'counts-section.php';?>
-<?php include 'features-section.php';?>
-<?php include 'services-section.php';?>
-<?php include 'faq-section.php';?>
-<?php include 'testimonials-section.php';?>
-<?php include 'team-section.php';?>
-<?php include 'clients-section.php';?>
-<?php include 'recent-blog-posts-section.php';?>
-<?php include 'contact-section.php';?>
 <section id="new-section">
 <div class="container">
 <div class="row">
