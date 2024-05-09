@@ -148,7 +148,7 @@ include('header.php'); ?>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
                     <div class="fun_text">
-                        <span class="counter">8</span>
+                        <span class="counter">3</span>
                         <h5>Office Branches</h5>
                     </div>
                 </div>

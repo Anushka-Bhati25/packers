@@ -106,32 +106,28 @@
 		<!-- all js here -->
 
         <script>
-            // Function to change text with different colors and images at a fixed interval
-            function changeTextWithColorAndImage(textList, colorList, colorList1, imageList, interval) {
-                var index = 0;
-                var textElement = document.getElementById("text");
-                var imageElement = document.getElementById("image");
-                var circles = document.querySelectorAll(".circle");
-    
-                // Change text, color, and image every interval milliseconds
-                setInterval(function () {
-                    textElement.textContent = textList[index];
-                    textElement.style.color = colorList1[index];
-                    imageElement.src = imageList[index];
-                    circles.forEach(function (circle, i) {
-                        circle.style.backgroundColor = colorList[(index + i) % colorList.length] + '1)'; // Change circle color without affecting transparency of text
-                    });
-                    index = (index + 1) % textList.length;
-                }, interval);
-            }
-    
-            // Example usage
-            var texts = ["Home Shifting", "Shop Shifting", "Office Shifting", "Warehouse Shifting"];
-            var colors1 = ["red", "blue", "green", "orange"];
-            var colors = ["rgba(255, 0, 0, 0.1)", "rgba(0, 0, 255, 0.1)", "rgba(0, 128, 0, 0.1)", "rgba(255, 165, 0, 0.1)"]; // Define alpha values separately
-            var images = ["packer3.jpg", "packer3.jpg", "packer3.jpg", "packer3.jpg"];
-            changeTextWithColorAndImage(texts, colors, colors1, images, 1000); // Change text every 1000 milliseconds (1 second)
-        </script>
+  let currentIndex = 0;
+  const items = document.querySelectorAll('.carousel-item');
+  const totalItems = items.length;
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalItems;
+    updateCarousel();
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+    updateCarousel();
+  }
+
+  function updateCarousel() {
+    const offset = -currentIndex * 100 + '%';
+    document.querySelector('.carousel-inner').style.transform = `translateX(${offset})`;
+  }
+</script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
 
 		<!-- jquery latest version -->
 		<script src="js/vendor/jquery-1.12.4.min.js"></script>

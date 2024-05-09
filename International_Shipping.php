@@ -18,11 +18,11 @@ include('header.php'); ?>
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="breadcrumb text-center">
                     <div class="section-headline white-headline text-center">
-                        <h3>Car Loading</h3>
+                        <h3>International Shipping</h3>
                     </div>
                     <ul>
                         <li class="home-bread">Home</li>
-                        <li>Car Loading</li>
+                        <li>International Shipping</li>
                     </ul>
                 </div>
             </div>
@@ -46,7 +46,7 @@ include('header.php'); ?>
                                 <li><a href="office_shifting.php">Office Shifting</a></li>
                                 <li><a href="transportation.php">Transportation Services</a></li>
                                 <li><a href="parcel.php">Parcel Services</a></li>
-                                <li class="active"><a href="Car_Loading.php">Car Loading</a></li>
+                                <li class="active"><a href="International_Shipping.php">International Shipping</a></li>
                             </ul>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ include('header.php'); ?>
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="single-well">
                             <a href="#">
-                                <h3>Car Loading</h3>
+                                <h3>International Shipping</h3>
                             </a>
                             <p>Moving homes can be an arduous task, demanding meticulous pre-planning to alleviate stress. Nowadays, many individuals relocate to different cities for reasons like education, job transfers, and more. The process involves considerable risk and complexity, especially with delicate household items such as electronics, furniture, glassware, kitchenware, and cherished belongings.
                             </p><br>
@@ -94,7 +94,7 @@ include('header.php'); ?>
                     <div class="col-md-12">
                         <div class="om-left">
                             <div class="service-imgs" style="margin-bottom:30px; ">
-                            <center><img src="img/service/CAR LOADING.jpg" alt=""></center>
+                            <center><img src="img/background/packer3.jpeg" alt=""></center>
 
                             </div>
 
