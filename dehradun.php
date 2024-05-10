@@ -13,7 +13,7 @@
 <div class="col-lg-6 order-lg-1 order-2 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
 <div class="content">
 <h3>Who We Are</h3>
-<h2>Packers and Movers in Dehradun</h2>
+<h2>Packers and Movers From Chennai To <span class="color">Dehradun</span></h2>
 <p style="margin-bottom:10px; padding-bottom:0;"> VRL Freight offers exceptional relocation services in Dehradun. Our team of dedicated professionals is devoted to providing top-quality solutions to make your moving experience seamless and stress-free. Whether you are moving your household or your business, we have got you covered with our reliable and efficient services. From careful packing to timely delivery, trust SK Packers and Movers to handle your relocation needs with precision and care, ensuring a smooth transition to your new destination."</p>
 <ul class="finger-emojis" style="list-style-type: none;">
 <li>👉 24x7 Customer Support </li>
@@ -26,7 +26,7 @@
 </div>
 <div class="col-lg-6 order-lg-2 order-1 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
 <form id="contactForm" method="POST" action="send_email.php" class="contact-form" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; width: 100%; ">
-<h3>Contact Us</h3>
+<h3  class="color">Contact Us</h3>
 <h2>Make an Appointment</h2>
 <div class="mb-3">
 <input type="text" name="name" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">

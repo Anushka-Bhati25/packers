@@ -131,6 +131,83 @@ include('header.php'); ?>
             </div><!-- .container -->
         </div><!-- .our-mission -->
     </section>
+
+    <div class="Services-area area-padding">
+    <div class="container">
+    <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-headline text-center">
+                    <h3>Our Transportation Services</h3>
+                    <!-- <p>Packers and movers specialize in aiding clients across diverse sectors to enhance their relocation efficiency and effectiveness.</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="services-all">
+                <!-- single-well end-->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-services text-center">
+                        <div class="services-img">
+                            <img src="img/service/TRANSPORTATION SERVICES.jpg" alt="">
+                            <div class="image-layer">
+                                <a href="#"><i class="flaticon-gear-3"></i></a>
+                            </div>
+                        </div>
+                        <div class="main-services">
+                            <div class="service-content">
+                                <h4>Bike Transport</h4>
+                                <p> We typically offer a range of services aimed at facilitating smooth relocation for individuals and businesses.</p>
+                                <a class="service-btn" href="biketransport.php">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single-well end-->
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-services text-center">
+                        <div class="services-img">
+                            <img src="img/service/TRANSPORTATION SERVICES.jpg" alt="">
+                            <div class="image-layer">
+                                <a href="#"><i class="flaticon-gear-3"></i></a>
+                            </div>
+                        </div>
+                        <div class="main-services">
+                            <div class="service-content">
+                                <h4>Car Transport</h4>
+                                <p> We typically offer a range of services aimed at facilitating smooth relocation for individuals and businesses.</p>
+                                <a class="service-btn" href="cartransport.php">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single-well end-->
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-services text-center">
+                        <div class="services-img">
+                            <img src="img/service/PARCEL SERVICES.jpg" alt="">
+                            <div class="image-layer">
+                                <a href="#"><i class="flaticon-control-system"></i></a>
+                            </div>
+                        </div>
+                        <div class="main-services">
+                            <div class="service-content">
+                                <h4>Parcel Transport</h4>
+                                <p>We typically offer a range of services aimed at facilitating smooth relocation for individuals and businesses.</p>
+                                <a class="service-btn" href="parcel.php">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- single-well end-->
+
+            </div>
+        </div>
+    </div>
+</div>
+
 </div>
 </div>
 

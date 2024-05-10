@@ -79,14 +79,14 @@ include('header.php'); ?>
                         <div class="services-img">
                             <img src="img/service/OFFICE SHIFTING.jpg" alt="">
                             <div class="image-layer">
-                                <a href="#"><i class="flaticon-gear-3"></i></a>
+                                <a href="#"><i class="flaticon-factory-1"></i></a>
                             </div>
                         </div>
                         <div class="main-services">
                             <div class="service-content">
-                                <h4>Pg Shifting</h4>
+                                <h4>Office Shifting </h4>
                                 <p> We typically offer a range of services aimed at facilitating smooth relocation for individuals and businesses.</p>
-                                <a class="service-btn" href="pgshifting.php">read more</a>
+                                <a class="service-btn" href="office_shifting.php">read more</a>
                             </div>
                         </div>
                     </div>
@@ -114,44 +114,10 @@ include('header.php'); ?>
                 <!-- single-well end-->
 
 
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-services text-center">
-                        <div class="services-img">
-                            <img src="img/service/TRANSPORTATION SERVICES.jpg" alt="">
-                            <div class="image-layer">
-                                <a href="#"><i class="flaticon-gear-3"></i></a>
-                            </div>
-                        </div>
-                        <div class="main-services">
-                            <div class="service-content">
-                                <h4>Car Transport</h4>
-                                <p> We typically offer a range of services aimed at facilitating smooth relocation for individuals and businesses.</p>
-                                <a class="service-btn" href="cartransport.php">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single-well end-->
+               
 
 
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-services text-center">
-                        <div class="services-img">
-                            <img src="img/service/TRANSPORTATION SERVICES.jpg" alt="">
-                            <div class="image-layer">
-                                <a href="#"><i class="flaticon-gear-3"></i></a>
-                            </div>
-                        </div>
-                        <div class="main-services">
-                            <div class="service-content">
-                                <h4>Bike Transport</h4>
-                                <p> We typically offer a range of services aimed at facilitating smooth relocation for individuals and businesses.</p>
-                                <a class="service-btn" href="biketransport.php">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single-well end-->
+                
 
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -174,25 +140,7 @@ include('header.php'); ?>
                 <!-- single-well end-->
 
 
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-services text-center">
-                        <div class="services-img">
-                            <img src="img/service/DOOR TO DOOR MOVING.jpg" alt="" >
-                            <div class="image-layer">
-                                <a href="#"><i class="flaticon-gear-3"></i></a>
-                            </div>
-                        </div>
-                        <div class="main-services">
-                            <div class="service-content">
-                                <h4>International Shipping</h4>
-                                <p> We typically offer a range of services aimed at facilitating smooth relocation for individuals and businesses.</p>
-                                <a class="service-btn" href="International_Shipping.php">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single-well end-->
-
+                
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-services text-center">
@@ -232,24 +180,7 @@ include('header.php'); ?>
 <!-- single-well end-->
 
                 <!-- single-well end-->
-                     <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-services text-center">
-                        <div class="services-img">
-                            <img src="img/service/DOOR TO DOOR MOVING.jpg" alt="">
-                            <div class="image-layer">
-                                <a href="#"><i class="flaticon-gear-3"></i></a>
-                            </div>
-                        </div>
-                        <div class="main-services">
-                            <div class="service-content">
-                                <h4>International Parcel</h4>
-                                <p> We typically offer a range of services aimed at facilitating smooth relocation for individuals and businesses.</p>
-                                <a class="service-btn" href="internationalparcel.php">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single-well end-->
+                   
                 
                 
                 <div class="col-md-4 col-sm-6 col-xs-12">

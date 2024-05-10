@@ -52,7 +52,7 @@
                     <div class=" col-md-10 col-sm-9">
                         <div class="topbar-left">
                             <ul>
-                                <li><a href="#"><i class="fa fa-envelope"></i> info@abc.com</a></li>
+                                <li><a href="mailto:transworldrelocationspackers@gmail.com"><i class="fa fa-envelope"></i>transworldrelocationspackers@gmail.com</a></li>
                                 <li><a href="tel:+919067580888"><i class="fa fa-phone"></i> 9067580888</a></li>
                             </ul>
                         </div>
@@ -75,28 +75,23 @@
                         <div class="logo">
                             <!-- Brand -->
                             <a class="navbar-brand page-scroll sticky-logo" href="index.php">
-                                <img src="img/logo/logo3.jpeg" alt="logo" height="100px" width="150px">
+                                <img src="img/logo/logo3.jpeg" alt="logo" height="100px" width="350px">
+                               
                             </a>
+                            
                         </div>
                     </div>
                     <!-- logo end -->
                     <div class="col-md-9 col-sm-9">
-                        <div class="header-right-link">
-                            <!-- search option start -->
-                            <form action="#">
-                                <div class="search-option">
-                                    <input type="text" placeholder="Search...">
-                                    <button class="button" type="submit"><i class="fa fa-search"></i></button>
-                                </div>
-                                <a class="main-search" href="#"><i class="fa fa-search"></i></a>
-                            </form>
-                            <!-- search option end -->
+                        <div class="header-left-link">
+                        <!-- <h1>VRL Freight Cargo</h1> -->
                         </div>
                         <!-- mainmenu start -->
                         <nav class="navbar navbar-default">
                             <div class="collapse navbar-collapse" id="navbar-example">
                                 <div class="main-menu">
                                     <ul class="nav navbar-nav navbar-right">
+                                    
                                         <li><a class="pagess" href="index.php">Home</a>
 
                                         </li>
